@@ -2,7 +2,7 @@
 
 ## Pametni pointeri, kolekcije
 
-1. Koja predstavlja pointer?
+1. Šta predstavlja pointer?
 2. Koji je najčešća vrsta pointera u Rust-u?
 3. Šta predstavlja pametni pointer (Engl. smart pointer)?
 4. Koja je glavna razlika između pametnog pointera i reference?
