@@ -57,7 +57,7 @@
     ```
 
 3. Da li je dozvoljeno koristiti generičke tipove unutar enumeracija? Ukoliko da, navedi primer.
-4. Šta je rezultat izvršavanja sldećeg isečka koda na `stdout`?
+4. Šta je rezultat izvršavanja sledećeg isečka koda na `stdout`?
 
     ```rust
     struct Point<X1, Y1> {
