@@ -1,4 +1,4 @@
-# V6 - Programski jezik Rust
+# V7 - Programski jezik Rust
 
 ## Generički tipovi, osobine, životni vek
 

@@ -45,6 +45,7 @@
     ```
 
 2. Pronađi i ispravi grešku u sledećem isečku koda.
+
     ```rust
     struct Point<T> {
         x: T,
@@ -88,7 +89,7 @@
 6. Koji koncept iz Rust-a je sličan intefejsima iz drugih jezika? Koje su razlike između njih?
 7. Da li je moguće implementirati `Display` osobinu (Engl. Trait) za `Vec<T>`? Zašto?
 8. Da li je moguće pozivati uobičajenu (Engl. Default) implementaciju iz naknadne (Engl. Overriding) implementacije iste metode?
-9. Šta je rezultat izvršavanja sldećeg isečka koda na `stdout`?
+9. Šta je rezultat izvršavanja sledećeg isečka koda na `stdout`?
 
     ```rust
     pub trait Summary {
@@ -166,6 +167,7 @@
     ```
 
 11. Pojednostavi sledeći kod koristeći sintaksu za ograničenja kroz osobine  (Engl. Trait bounds).
+
     ```rust
     pub fn notify(item: &(impl Summary + Display)) {
     ```
@@ -179,7 +181,7 @@
 13. Da li sledeći kod proizvodi grešku?
 
     ```rust
-        pub trait Summary {
+    pub trait Summary {
         fn summarize_author(&self) -> String;
 
         fn summarize(&self) -> String {
@@ -489,7 +491,7 @@
     }
     ```
 
-33. Šta je rezultat ivršavanja sledećeg isečka koda?
+33. Šta je rezultat izvršavanja sledećeg isečka koda?
 
     ```rust
     trait Pilot {
@@ -555,6 +557,7 @@
 
 36. Ponovo napiši `main` funkciju iz prethodnog primera tako da poziva obe `baby_name` metode.
 37. Sledeći kod se ne kompajlira. Implementiraj odgovarajuću osobinu na `Point` tipu.
+
     ```rust
     use std::fmt;
 
@@ -577,6 +580,7 @@
 
     impl OutlinePrint for Point {}
     ```
+
 38. Implementiraj `Display` osobinu na `Vector<T>` tipu.
 39. Šta sledeći kod prikazuje na `stdout`?
 
